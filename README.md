@@ -31,3 +31,4 @@ CmdStanPy provides a script to perform this install:
 7. Set environment variable for `CMDSTAN`
 `export CMDSTAN='/Users/(your username)/.cmdstanpy/cmdstan-2.20.0'`
 *(The path and cmdstan version should match the log output from Step 6)*
+8. Run `jupyter notebook`
