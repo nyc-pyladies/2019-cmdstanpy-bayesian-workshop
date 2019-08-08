@@ -41,3 +41,4 @@ Take note of the install directory, as well as the install version. You should s
 *(The path and cmdstan version should match the log output from Step 6)*
 
 9. Run `jupyter notebook`
+10. Navigate to tutorial in `notebooks/WWC2019.ipynb`
