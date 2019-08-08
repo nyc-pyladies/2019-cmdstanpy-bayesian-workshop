@@ -29,8 +29,9 @@ def fake_data(n):
     df.loc[:, 'right'] = df.average + del_x
     return df
 
-def coefficient_plot(x, left, right, actual_data, names=None, title=None):
-    fig, ax = plt.subplots(figsize=(8,12))
+def coefficient_plot(x, left, right, actual_data, names=None, title=None,
+                     fig_size =None):
+    fig, ax = plt.subplots(figsize=fig_size)
 
     # Guideline (First = underneath everything else).
     ax.plot([0, 0], [-1, x.size+0.5], '--', color='grey', lw=3)
@@ -62,7 +63,7 @@ def coefficient_plot(x, left, right, actual_data, names=None, title=None):
     ax.yaxis.grid(linestyle='dotted')
 
     # Save or plot.
-    plt.savefig('example.png', bbox_inches='tight', dpi=300)
+    #plt.savefig('example.png', bbox_inches='tight', dpi=300)
     #plt.show()
 
 
@@ -76,7 +77,7 @@ def main():
     # Plot.
     actual_data = averages = 2*np.random.random(24) - 1
     coefficient_plot(df['average'], df['left'], df['right'], actual_data,
-                     names=df['names'], title='Example Coefficient Plot')
+                     names=df['names'], title='Example Coefficient Plot', fig_size = (8.12))
 
 if __name__ == '__main__':
     main()
