@@ -22,13 +22,19 @@ CmdStanPy provides a script to perform this install:
 5. Save a copy of this python script to your machine:
  [install_cmdstan.py](https://github.com/stan-dev/cmdstanpy/blob/master/bin/install_cmdstan)
 6. Run the file: `python install_cmdstan.py`
+
 	*(This may take a few minutes)*
-	 Take note of the install directory, as well as the install version. You should see the following logged in the first couple of lines from installation:
+
+	Take note of the install directory, as well as the install version. You should see the following logged in the first couple of lines from installation:
 
 *Install directory: /Users/(your username)/.cmdstanpy*
+
 *Downloading CmdStan version 2.20.0*
 
 7. Set environment variable for `CMDSTAN`
+
 `export CMDSTAN='/Users/(your username)/.cmdstanpy/cmdstan-2.20.0'`
+
 *(The path and cmdstan version should match the log output from Step 6)*
+
 8. Run `jupyter notebook`
