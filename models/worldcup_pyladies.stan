@@ -37,4 +37,5 @@ generated quantities {
   for (n in 1:N) {
     y_rep[n] = student_t_rng(7, ability[team_1[n]] - ability[team_2[n]], sigma_y);
   }
+
 }
