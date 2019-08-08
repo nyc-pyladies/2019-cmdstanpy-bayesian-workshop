@@ -1,3 +1,4 @@
+
 # Welcome to Bayesian Workflows using CmdStanPy!
 
 ## We will be predicting the results of Women's World Cup 2019!
@@ -5,6 +6,8 @@
 ####  Today's tutorial and dependencies will be provided in [Google Colab](https://colab.research.google.com/)
 
 This requires a Google account, allowing you to save a copy of the notebook to your personal Google Drive.
+
+Tutorial link: bit.ly/pyladiesstan3
 
 #### However, if you prefer to work locally on your machine, here are steps to install CmdStanPy and tutorial requirements:
 1. Navigate to a desired directory
@@ -16,7 +19,7 @@ This requires a Google account, allowing you to save a copy of the notebook to y
 
 #### In order to use CmdStanPy, we need to install the shell interface to Stan using [CmdStan](https://mc-stan.org/users/interfaces/cmdstan)
 
-CmdStanPy provides a script to perform this install:
+CmdStanPy provides a script to perform this install.
 
 7. Install using either:
 
