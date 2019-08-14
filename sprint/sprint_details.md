@@ -79,9 +79,6 @@ Maintainer of CmdStanPy, Mitzi Morris has identified the following categories th
 ### 2.  Join [Gitter](https://gitter.im)
 Gitter is an open source instant messaging and chat room system for developers and users of GitHub repositories.  You can use your GitHub ID to sign in. 
 
-Join the CmdStanPy Gitter community 
-* [gitter.im/cmdstanpy/home](https://gitter.im/cmdstanpy/home)
-
 Join the NYC PyLadies Gitter community to discuss the CmdStanPy sprint!<br>
 [![Gitter](https://badges.gitter.im/nyc-pyladies/2019-cmdstanpy-bayesian-workshop.svg)](https://gitter.im/nyc-pyladies/2019-cmdstanpy-bayesian-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
