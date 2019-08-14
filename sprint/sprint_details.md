@@ -11,6 +11,7 @@ The first event was a primer on executing Bayesian Workflows using CmdStanPy. Th
 (It is not necessary to have attended the first event to be able to contribute to the Sprint.)
 
 * [Tutorial from Pyladies Part 1: Bayesian Workflows with CmdStanPy](https://github.com/nyc-pyladies/2019-cmdstanpy-bayesian-workshop/blob/master/README.md)
+* *Coming soon:* Audio and video recording from Part 1: Bayesian Workflows with CmdStanPy 
  
 ## Useful Links
 * [CmdStanPy Repository](https://github.com/stan-dev/cmdstanpy)
@@ -78,8 +79,11 @@ Maintainer of CmdStanPy, Mitzi Morris has identified the following categories th
 ### 2.  Join [Gitter](https://gitter.im)
 Gitter is an open source instant messaging and chat room system for developers and users of GitHub repositories.  You can use your GitHub ID to sign in. 
 
-Join the CmdStanPy Gitter community
+Join the CmdStanPy Gitter community 
 * [gitter.im/cmdstanpy/home](https://gitter.im/cmdstanpy/home)
+
+Join the NYC PyLadies Gitter community to discuss the CmdStanPy sprint!<br>
+[![Gitter](https://badges.gitter.im/nyc-pyladies/2019-cmdstanpy-bayesian-workshop.svg)](https://gitter.im/nyc-pyladies/2019-cmdstanpy-bayesian-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### 3.  Read thru [CmdStanPy Documentation](https://cmdstanpy.readthedocs.io/en/latest/index.html)
 
