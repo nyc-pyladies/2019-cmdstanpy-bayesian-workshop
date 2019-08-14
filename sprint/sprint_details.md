@@ -83,10 +83,10 @@ Join the CmdStanPy Gitter community
 
 ### 3.  Read thru [CmdStanPy Documentation](https://cmdstanpy.readthedocs.io/en/latest/index.html)
 
-### 4.  Review [Open Issues](https://docs.google.com/spreadsheets/d/10aLbgZI_773s8MqqLSFMKFB1jK60K9Xt8ySznrOaodE/edit?usp=sharing) 
+### 4.  Review [Open Issues](http://bit.ly/cmdstanpy-sprint-0814) 
 * [CmdStanPy repository](https://github.com/stan-dev/cmdstanpy/tree/master/docs)
 * For the sprint, we have curated a list of issues and categorized with the level of research and effort required
-Issue list can be found [here](https://docs.google.com/spreadsheets/d/10aLbgZI_773s8MqqLSFMKFB1jK60K9Xt8ySznrOaodE/edit?usp=sharing)  
+Issue list can be found [here](http://bit.ly/cmdstanpy-sprint-0814)  
 * Go through the issues (with the above labels) and become familiar with them or come with any questions!
 
 ## Day of Sprint
