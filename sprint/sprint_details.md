@@ -15,7 +15,7 @@ The first event was a primer on executing Bayesian Workflows using CmdStanPy. Th
  
 ## Useful Links
 * [CmdStanPy Repository](https://github.com/stan-dev/cmdstanpy)
-* [Gitter Chatroom](https://gitter.im/cmdstanpy)
+* [Gitter Chatroom](https://gitter.im/nyc-pyladies/2019-cmdstanpy-bayesian-workshop#)
 * [Sprint Issues/Ideas List](http://bit.ly/cmdstanpy-sprint-0814)
 
 ## Schedule
