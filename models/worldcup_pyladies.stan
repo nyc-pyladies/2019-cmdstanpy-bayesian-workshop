@@ -1,7 +1,7 @@
 data {
   int I;   // number of teams
   int N;   // number of matches
-  vector[I] prior_score;  // per-team ranking
+  vector[I] spi_std;  // per-team ranking
   // this is a 4-column data table of per-game outcomes
   int team_1[N];
   int team_2[N];
@@ -19,7 +19,7 @@ parameters {
 }
 transformed parameters {
   // "mixed effects" model - common intercept + random effects
-  vector[I] ability = beta * prior_score + alpha * sigma_a;
+  vector[I] ability = beta * spi_std + alpha * sigma_a;
 }
 model {
   alpha ~ normal(0, 1); // priors on all parameters
