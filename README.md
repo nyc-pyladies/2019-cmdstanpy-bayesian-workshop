@@ -19,15 +19,12 @@ Tutorial link: bit.ly/pyladiesstan3
 
 #### In order to use CmdStanPy, we need to install the shell interface to Stan using [CmdStan](https://mc-stan.org/users/interfaces/cmdstan)
 
-CmdStanPy provides a script to perform this install.
+7. CmdStanPy provides a utility to perform this install.  From within Python you can run this utility via the following
 
-7. Install using either:
-
-`curl -o install_cmdstan.py https://raw.githubusercontent.com/stan-dev/cmdstanpy/master/bin/install_cmdstan`
-
-or
-
-`wget -O install_cmdstan.py https://raw.githubusercontent.com/stan-dev/cmdstanpy/master/bin/install_cmdstan`
+```
+import cmdstanpy
+cmdstanpy.install_cmdstan()
+```
 
 *(This may take a few minutes to install)*
 
@@ -41,7 +38,7 @@ Take note of the install directory, as well as the install version. You should s
 
 `export CMDSTAN='/Users/(your username)/.cmdstanpy/cmdstan-2.20.0'`
 
-*(The path and cmdstan version should match the log output from Step 6)*
+*(The path and cmdstan version should match the log output from Step 7)*
 
 9. Run `jupyter notebook`
 10. Navigate to tutorial in `notebooks/WWC2019.ipynb`
